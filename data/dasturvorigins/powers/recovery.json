@@ -1,0 +1,14 @@
+{
+    "type": "origins:action_when_damage_taken",
+    "name": "Recovery",
+    "description": "Your innate healing ability allows you to regenerate some after being injured.",
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:regeneration",
+        "duration": 200,
+        "amplifier": 0
+      }
+      },
+    "cooldown": 1
+  }

@@ -1,0 +1,32 @@
+{
+    "type": "origins:multiple",
+    "name": "Small",
+    "description": "You are small, your short arms limits your reach and you can take fewer hits, but you can crouch through one block gaps.",
+    "modify_size": {
+      "type": "extraorigins:modify_size",
+      "scale": 0.65
+    },
+    "attribute_modifiers": {
+      "type": "origins:attribute",
+      "modifiers": [
+        {
+          "name": "Origin modifier",
+          "attribute": "generic.max_health",
+          "value": -6,
+          "operation": "addition"
+        },
+        {
+          "name": "Origin modifier",
+          "attribute": "reach-entity-attributes:attack_range",
+          "value": -0.25,
+          "operation": "addition"
+        },
+        {
+          "name": "Origin modifier",
+          "attribute": "reach-entity-attributes:reach",
+          "value": -1,
+          "operation": "addition"
+        }
+      ]
+    }
+  }
