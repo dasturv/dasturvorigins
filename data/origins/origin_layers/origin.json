@@ -1,6 +1,7 @@
 {
     "replace": true,
     "origins": [
-      "dasturvorigins:axolotl"
+      "dasturvorigins:axolotl",
+      "dasturvorigins:turtle"
     ]
 }
