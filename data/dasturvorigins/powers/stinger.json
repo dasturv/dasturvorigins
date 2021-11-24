@@ -1,5 +1,5 @@
 {
-    "type": "origins:attacker_action_when_hit",
+    "type": "origins:target_action_on_hit",
     "name": "Stinger",
     "description": "Your attacks poison your foes.",
     "entity_action": {

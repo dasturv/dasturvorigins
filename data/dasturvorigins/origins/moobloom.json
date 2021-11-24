@@ -3,7 +3,8 @@
       "origins:vegetarian",
       "dasturvorigins:photosynthesis",
       "dasturvorigins:floral_symbiotes",
-      "dasturvorigins:large"
+      "dasturvorigins:large",
+      "dasturvorigins:bee_love"
     ],
     "icon": "minecraft:dandelion",
     "order": 4,
