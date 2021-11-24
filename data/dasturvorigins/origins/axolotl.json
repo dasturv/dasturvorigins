@@ -13,7 +13,8 @@
       "dasturvorigins:recovery",
       "dasturvorigins:aquatic_predator",
       "dasturvorigins:aura_of_life",
-      "dasturvorigins:tropical_tastes"
+      "dasturvorigins:tropical_tastes",
+      "dasturvorigins:amphibious"
     ],
     "icon": "minecraft:tropical_fish",
     "order": 4,
