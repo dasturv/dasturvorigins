@@ -1,7 +1,7 @@
 {
     "type": "origins:particle",
     "particle": "minecraft:falling_nectar",
-    "frequency": 10,
+    "frequency": 20,
     "hidden": true,
     "condition": {
         "type": "origins:food_level",
