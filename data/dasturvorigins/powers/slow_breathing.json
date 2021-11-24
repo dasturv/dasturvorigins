@@ -1,0 +1,19 @@
+{
+    "type": "origins:action_over_time",
+    "name": "Amphibious",
+    "description": "Your amphibious nature helps you hold your breath longer.",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:water_breathing",
+            "duration": 600,
+            "amplifier": 0
+        }
+    },
+    "interval": 20,
+    "condition": {
+        "type": "origins:submerged_in",
+        "fluid": "minecraft:water",
+        "inverted": true
+    }
+}

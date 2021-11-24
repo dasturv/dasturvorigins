@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "name": "Slow and Steady",
+    "description": "Your heavy shell and flippers make you slow on land. Hope you weren't planning on getting anywhere quickly.",
+    "modifier": {
+        "name": "Speed Decrease",
+        "attribute": "minecraft:generic.movement_speed",
+        "value": -0.2,
+        "operation": "multiply_base"
+    }
+}

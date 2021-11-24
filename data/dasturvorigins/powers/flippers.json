@@ -1,0 +1,9 @@
+{
+    "type": "origins:modify_swim_speed",
+    "name": "Flippers",
+    "description": "You can swim faster than normal.",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 1.25
+    }
+}
