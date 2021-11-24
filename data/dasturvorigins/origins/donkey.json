@@ -1,0 +1,11 @@
+{
+    "powers": [
+      "origins:vegetarian",
+      "dasturvorigins:saddle_bags"
+    ],
+    "icon": "minecraft:hay_block",
+    "order": 4,
+    "impact": 1,
+    "name": "Donkey",
+    "description": "Stubborn boi."
+}
