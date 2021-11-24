@@ -1,0 +1,31 @@
+{
+    "type": "origins:multiple",
+    "name": "Photosynthesis",
+    "description": "Your symbiotic flowers help sustain you while in the light, but they drain you quicker in the dark.",
+    "sun_boost": {
+        "type": "origins:modify_exhaustion",
+        "modifier": {
+            "name": "Decreased exhaustion",
+            "operation": "multiply_base",
+            "value": -0.5
+        },
+        "condition": {
+            "type": "origins:brightness",
+            "comparison": ">",
+            "compare_to": 0.5
+        }
+    },
+    "dark_boost": {
+        "type": "origins:modify_exhaustion",
+        "modifier": {
+            "name": "Decreased exhaustion",
+            "operation": "multiply_base",
+            "value": 0.5
+        },
+        "condition": {
+            "type": "origins:brightness",
+            "comparison": "<=",
+            "compare_to": 0.5
+        }
+    }
+}

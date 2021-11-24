@@ -1,0 +1,13 @@
+{
+    "powers": [
+      "origins:vegetarian",
+      "dasturvorigins:photosynthesis",
+      "dasturvorigins:floral_symbiotes",
+      "dasturvorigins:large"
+    ],
+    "icon": "minecraft:dandelion",
+    "order": 4,
+    "impact": 1,
+    "name": "Moobloom",
+    "description": "Peaceful floral bovines, Mooblooms love flowers and bees."
+}
