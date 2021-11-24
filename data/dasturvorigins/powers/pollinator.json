@@ -1,0 +1,11 @@
+{
+    "type": "origins:particle",
+    "particle": "minecraft:falling_nectar",
+    "frequency": 10,
+    "hidden": true,
+    "condition": {
+        "type": "origins:food_level",
+        "comparison": ">",
+        "compare_to": 14
+    }
+}

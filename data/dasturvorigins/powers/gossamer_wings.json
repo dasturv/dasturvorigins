@@ -1,0 +1,71 @@
+{
+    "type": "origins:multiple",
+    "name": "Gossamer Wings",
+    "description": "Your thin insect wings allow flight, just don't get caught out in the rain.",
+    "flight": {
+        "type": "origins:creative_flight",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                "type": "origins:in_rain",
+                "inverted": true
+                },
+                {
+                "type": "origins:food_level",
+                "comparison": ">",
+                "compare_to": 6
+                }
+            ]
+        }
+    },
+    "air_speed": {
+        "type": "origins:modify_air_speed",
+        "modifier": {
+            "operation": "multiply_total",
+            "value": -0.5
+        }
+    },
+    "food_drain_sprinting": {
+        "type": "origins:exhaust",
+        "interval": 10,
+        "exhaustion": 1.0,
+        "condition": {
+          "type": "origins:and",
+          "conditions": [
+            {
+              "type": "origins:creative_flying"
+            },
+            {
+              "type": "origins:sprinting"
+            }
+          ]
+        }
+      },
+      "food_drain_moving": {
+        "type": "origins:exhaust",
+        "interval": 10,
+        "exhaustion": 0.5,
+        "condition": {
+          "type": "origins:and",
+          "conditions": [
+            {
+              "type": "origins:creative_flying"
+            },
+            {
+              "type": "origins:sprinting",
+              "inverted": true
+            }
+          ]
+        }
+      },
+      "slow_fall": {
+        "type": "origins:modify_falling",
+        "velocity": 0.04,
+        "take_fall_damage": false,
+        "condition": {
+          "type": "origins:sneaking",
+          "inverted": true
+        }
+      }
+}

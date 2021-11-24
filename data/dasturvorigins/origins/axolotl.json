@@ -14,7 +14,8 @@
       "dasturvorigins:aquatic_predator",
       "dasturvorigins:aura_of_life",
       "dasturvorigins:tropical_tastes",
-      "dasturvorigins:amphibious"
+      "dasturvorigins:amphibious",
+      "dasturvorigins:mining_fatigue_immunity"
     ],
     "icon": "minecraft:tropical_fish",
     "order": 4,
