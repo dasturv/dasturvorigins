@@ -1,0 +1,15 @@
+{
+    "powers": [
+      "origins:vegetarian",
+      "dasturvorigins:small",
+      "dasturvorigins:agile",
+      "dasturvorigins:burrower",
+      "dasturvorigins:carrot_lover",
+      "dasturvorigins:weighed_down"
+    ],
+    "icon": "minecraft:carrot",
+    "order": 4,
+    "impact": 2,
+    "name": "Rabbit",
+    "description": "Tiny and Agile, these critters can seemingly get anywhere."
+}

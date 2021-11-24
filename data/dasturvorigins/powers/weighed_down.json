@@ -1,0 +1,151 @@
+{
+    "type": "origins:multiple",
+    "name": "Weighed Down",
+    "description": "You are unaccustomed to heavy weights, slowing you down in heavy armor.",
+    "helmet_slow": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "multiply_base",
+            "value": -0.1,
+            "name": "Reduced Armor Speed"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "head",
+                    "item_condition": {
+                        "type": "origins:armor_value",
+                        "comparison": ">",
+                        "compare_to": 2
+                    }
+                },
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "head",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:iron_helmet"
+                        }
+                    }
+                },
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "head",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:golden_helmet"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "chestplate_slow": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "multiply_base",
+            "value": -0.1,
+            "name": "Reduced Armor Speed"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "chest",
+                    "item_condition": {
+                        "type": "origins:armor_value",
+                        "comparison": ">",
+                        "compare_to": 5
+                    }
+                },
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "chest",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:golden_chestplate"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "leggings_slow": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "multiply_base",
+            "value": -0.1,
+            "name": "Reduced Armor Speed"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "legs",
+                    "item_condition": {
+                        "type": "origins:armor_value",
+                        "comparison": ">",
+                        "compare_to": 4
+                    }
+                },
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "legs",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:golden_leggings"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "boots_slow": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "multiply_base",
+            "value": -0.1,
+            "name": "Reduced Armor Speed"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "feet",
+                    "item_condition": {
+                        "type": "origins:armor_value",
+                        "comparison": ">",
+                        "compare_to": 1
+                    }
+                },
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "feet",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:golden_boots"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}
