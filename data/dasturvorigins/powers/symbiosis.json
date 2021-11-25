@@ -1,0 +1,31 @@
+{
+    "type": "origins:multiple",
+    "name": "Symbiosis",
+    "description": "Your symbiotic fungi help sustain you while in the dark, but they drain you quicker in the light.",
+    "sun_boost": {
+        "type": "origins:modify_exhaustion",
+        "modifier": {
+            "name": "Decreased exhaustion",
+            "operation": "multiply_base",
+            "value": -0.5
+        },
+        "condition": {
+            "type": "origins:brightness",
+            "comparison": "<=",
+            "compare_to": 0.5
+        }
+    },
+    "dark_boost": {
+        "type": "origins:modify_exhaustion",
+        "modifier": {
+            "name": "Decreased exhaustion",
+            "operation": "multiply_base",
+            "value": 0.5
+        },
+        "condition": {
+            "type": "origins:brightness",
+            "comparison": ">",
+            "compare_to": 0.5
+        }
+    }
+}

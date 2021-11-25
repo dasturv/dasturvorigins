@@ -1,0 +1,14 @@
+{
+    "powers": [
+      "origins:vegetarian",
+      "dasturvorigins:symbiosis",
+      "dasturvorigins:fungal_symbiotes",
+      "dasturvorigins:large",
+      "dasturvorigins:mushroom_milk"
+    ],
+    "icon": "minecraft:red_mushroom",
+    "order": 4,
+    "impact": 1,
+    "name": "Mooshroom",
+    "description": "Peaceful fungal bovines, Mooshrooms love mushrooms and the dark."
+}
