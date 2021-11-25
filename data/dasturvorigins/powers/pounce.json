@@ -1,0 +1,15 @@
+{
+    "name": "Pounce",
+    "description": "Surprise your foes from the air.",
+    "type": "origins:launch",
+    "cooldown": 400,
+    "speed": 1,
+    "sound": "minecraft:entity.fox.aggro",
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+        "bar_index": 3
+    },
+    "condition": {
+        "type": "origins:on_block"
+    }
+}

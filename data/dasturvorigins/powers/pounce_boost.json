@@ -1,0 +1,23 @@
+{
+    "type": "origins:active_self",
+    "hidden": true,
+    "cooldown": 400,
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effects": [
+            {
+                "effect": "minecraft:speed",
+                "duration": 100,
+                "amplifier": 0
+            },
+             {
+                "effect": "minecraft:strength",
+                "duration": 100,
+                "amplifier": 0
+            }
+        ]
+    },
+    "condition": {
+        "type": "origins:on_block"
+    }
+}
