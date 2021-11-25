@@ -7,7 +7,10 @@
         "effect": {
             "effect": "minecraft:water_breathing",
             "duration": 600,
-            "amplifier": 0
+            "amplifier": 0,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": false
         }
     },
     "interval": 20,

@@ -1,0 +1,11 @@
+{
+    "powers": [
+      "dasturvorigins:construct_nature",
+      "dasturvorigins:density"
+    ],
+    "icon": "minecraft:iron_ingot",
+    "order": 4,
+    "impact": 3,
+    "name": "Iron Golem",
+    "description": "Formidable metal behemoths, iron golems are slow but incredibly strong."
+}
