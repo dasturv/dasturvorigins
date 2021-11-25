@@ -1,0 +1,8 @@
+{
+    "type": "origins:action_on_being_used",
+    "name": "Mountable",
+    "description": "You can be ridden like the donkey you are.",
+    "bientity_action": {
+        "type": "origins:mount"
+    }
+}
