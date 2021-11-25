@@ -7,11 +7,12 @@
       "dasturvorigins:pounce_resist",
       "dasturvorigins:swift",
       "dasturvorigins:lowlight_vision",
-      "dasturvorigins:small"
+      "dasturvorigins:small",
+      "dasturvorigins:weak"
     ],
     "icon": "minecraft:sweet_berries",
     "order": 2,
     "impact": 2,
     "name": "Fox",
-    "description": "Fluffy Boi!"
+    "description": "Fast and Deadly, Foxes are active predators with a sweet tooth."
 }

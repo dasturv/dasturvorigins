@@ -1,9 +1,11 @@
 {
     "type": "origins:attribute",
-        "modifier": {
-          "name": "speed increase",
-          "attribute": "minecraft:generic.movement_speed",
-          "value": 0.3,
-          "operation": "multiply_total"
-        }
+    "name": "Swift",
+    "description": "You are extra quick.",
+    "modifier": {
+      "name": "speed increase",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "multiply_total"
     }
+}

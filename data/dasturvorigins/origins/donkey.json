@@ -2,11 +2,12 @@
     "powers": [
       "origins:vegetarian",
       "dasturvorigins:saddle_bags",
-      "dasturvorigins:mountable"
+      "dasturvorigins:mountable",
+      "dasturvorigins:strong"
     ],
     "icon": "minecraft:hay_block",
     "order": 4,
     "impact": 1,
     "name": "Donkey",
-    "description": "Stubborn boi."
+    "description": "Resilient and Strong, Donkey's have a wide independent streak."
 }

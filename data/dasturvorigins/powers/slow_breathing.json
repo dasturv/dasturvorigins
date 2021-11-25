@@ -1,19 +1,16 @@
 {
-    "type": "origins:action_over_time",
+    "type": "origins:stacking_status_effect",
     "name": "Amphibious",
     "description": "Your amphibious nature helps you hold your breath longer.",
-    "entity_action": {
-        "type": "origins:apply_effect",
-        "effect": {
-            "effect": "minecraft:water_breathing",
-            "duration": 600,
-            "amplifier": 0,
-            "is_ambient": true,
-            "show_particles": false,
-            "show_icon": false
-        }
+    "effect": {
+        "effect": "minecraft:water_breathing",
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": false
     },
-    "interval": 20,
+    "min_stacks": 0,
+    "max_stacks": 8,
+    "duration_per_stack": 75,
     "condition": {
         "type": "origins:submerged_in",
         "fluid": "minecraft:water",

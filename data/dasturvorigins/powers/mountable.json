@@ -1,7 +1,7 @@
 {
     "type": "origins:action_on_being_used",
-    "name": "Mountable",
-    "description": "You can be ridden like the donkey you are.",
+    "name": "Mount",
+    "description": "Other players can ride you, no saddle needed.",
     "bientity_action": {
         "type": "origins:mount"
     }

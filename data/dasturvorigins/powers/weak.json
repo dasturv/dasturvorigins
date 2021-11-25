@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "name": "Weak",
+    "description": "You aren't that strong, dealing reduced damage.",
+    "modifier": {
+      "name": "damage decrease",
+      "attribute": "minecraft:generic.attack_damage",
+      "value": -0.2,
+      "operation": "multiply_total"
+    }
+}
