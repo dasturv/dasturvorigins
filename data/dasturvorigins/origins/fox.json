@@ -1,0 +1,15 @@
+{
+    "powers": [
+      "moborigins:better_berries",
+      "moborigins:careful_gatherer",
+      "dasturvorigins:pounce",
+      "dasturvorigins:swift",
+      "dasturvorigins:lowlight_vision",
+      "dasturvorigins:small"
+    ],
+    "icon": "minecraft:sweet_berries",
+    "order": 2,
+    "impact": 2,
+    "name": "Fox",
+    "description": "Fluffy Boi!"
+}
