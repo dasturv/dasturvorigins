@@ -26,7 +26,19 @@
         },
         "modifier": {
           "operation": "addition",
-          "value": -8.0
+          "value": -3.0
         }
+      },
+      "fall_immunity": {
+          "type": "origins:invulnerability",
+          "damage_condition": {
+              "type": "origins:name",
+              "name": "fall"
+          },
+          "condition": {
+            "type": "origins:fall_distance",
+            "comparison": "<=",
+            "compare_to": 6
+          }
       }
 }
