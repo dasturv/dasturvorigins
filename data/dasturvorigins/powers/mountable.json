@@ -1,8 +1,0 @@
-{
-    "type": "origins:action_on_being_used",
-    "name": "Mount",
-    "description": "Other players can ride you, no saddle needed.",
-    "bientity_action": {
-        "type": "origins:mount"
-    }
-}

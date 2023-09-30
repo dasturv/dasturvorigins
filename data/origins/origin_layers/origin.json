@@ -1,13 +1,6 @@
 {
     "replace": true,
     "origins": [
-      "dasturvorigins:axolotl",
-      "dasturvorigins:turtle",
-      "dasturvorigins:rabbit",
-      "dasturvorigins:bee",
-      "dasturvorigins:moobloom",
-      "dasturvorigins:donkey",
-      "dasturvorigins:mooshroom",
-      "dasturvorigins:fox"
+      "origins:human"
     ]
 }
