@@ -1,0 +1,34 @@
+{
+    "type": "origins:prevent_item_use",
+    "name": "Vegetarian",
+    "description": "Dietary restrictions mean you cannot eat meat.",
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:or",
+          "conditions": [
+            {
+              "type": "origins:ingredient",
+              "ingredient": {
+                "tag": "dasturvorigins:meat"
+              }
+            },
+            {
+              "type": "origins:meat"
+            }
+          ]
+        },
+        {
+          "type": "origins:food"
+        },
+        {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "origins:ignore_diet"
+          },
+          "inverted": true
+        }
+      ]
+    }
+  }

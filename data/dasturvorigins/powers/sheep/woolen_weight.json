@@ -1,0 +1,32 @@
+{
+    "type": "origins:multiple",
+    "hidden": true,
+    "level_4": {
+        "type": "origins:modify_attribute",
+        "attribute": "minecraft:generic.knockback_resistance",
+        "modifier": {
+            "operation": "add_base_early",
+            "value": 0.2
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "dasturvorigins:sheep/wool_layers",
+            "comparison": "==",
+            "compare_to": 4
+        }
+    },
+    "level_5": {
+        "type": "origins:modify_attribute",
+        "attribute": "minecraft:generic.knockback_resistance",
+        "modifier": {
+            "operation": "add_base_early",
+            "value": 0.4
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "dasturvorigins:sheep/wool_layers",
+            "comparison": "==",
+            "compare_to": 5
+        }
+    }
+}
