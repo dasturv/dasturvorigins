@@ -1,0 +1,55 @@
+{
+    "name": "Wool",
+    "description": "You slowly grow wool. The thicker your wool gets, the stronger your defenses are, but also slows you down and makes you more susceptible to fire.",
+    "type": "origins:multiple",
+    "layers": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 5,
+        "hud_render": {
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+            "bar_index": 6
+        }
+    },
+    "grow_time": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 20,
+        "max_action": {
+            "type":"origins:and",
+            "actions": [
+                {
+                    "type":"origins:change_resource",
+                    "resource": "dasturvorigins:wool_layers",
+                    "change": 1
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "dasturvorigins:wool_grow_time",
+                    "change": 0,
+                    "operation": "set"
+                }
+            ]
+        }
+    },
+    "grow_tick": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "dasturvorigins:wool_grow_time",
+            "change": 1
+        },
+        "interval": 1200
+    },
+    "sleep_bonus": {
+        "type": "origins:action_on_wake_up",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "dasturvorigins:wool_grow_time",
+            "change": 10
+        },
+        "condition": {
+            "type": "origins:daytime"
+        }
+    }
+}

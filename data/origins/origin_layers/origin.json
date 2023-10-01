@@ -2,6 +2,6 @@
     "replace": true,
     "origins": [
       "origins:human",
-      "dasturvorigins:test"
+      "dasturvorigins:sheep"
     ]
 }

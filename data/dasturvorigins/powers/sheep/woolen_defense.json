@@ -1,0 +1,18 @@
+{
+    "type": "origins:multiple",
+    "hidden": true,
+    "level_1": {
+        "type": "origins:modify_attribute",
+        "attribute": "minecraft:generic.armor",
+        "modifier": {
+            "operation": "add_base_early",
+            "value": 4
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "dasturvorigins:wool_layers",
+            "comparison": "==",
+            "compare_to": 1
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dasturvorigins:sheep/wool"
+    ],
+    "icon": "minecraft:white_wool",
+    "order": 4,
+    "impact": 1,
+    "name": "Sheep",
+    "description": "Covered in thick wool, sheep are hardy creatures."
+}
