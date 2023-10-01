@@ -1,12 +1,26 @@
 {
     "type": "origins:multiple",
     "hidden": true,
+    "level_0": {
+        "type": "origins:modify_attribute",
+        "attribute": "minecraft:generic.movement_speed",
+        "modifier": {
+            "operation": "multiply_base_multiplicative",
+            "value": 0.1
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "dasturvorigins:sheep/wool_layers",
+            "comparison": "==",
+            "compare_to": 0
+        }
+    },
     "level_1": {
         "type": "origins:modify_attribute",
-        "attribute": "minecraft:generic.armor",
+        "attribute": "minecraft:generic.movement_speed",
         "modifier": {
-            "operation": "add_base_early",
-            "value": 4
+            "operation": "multiply_base_multiplicative",
+            "value": 0.05
         },
         "condition": {
             "type": "origins:resource",
@@ -15,40 +29,12 @@
             "compare_to": 1
         }
     },
-    "level_2": {
-        "type": "origins:modify_attribute",
-        "attribute": "minecraft:generic.armor",
-        "modifier": {
-            "operation": "add_base_early",
-            "value": 8
-        },
-        "condition": {
-            "type": "origins:resource",
-            "resource": "dasturvorigins:sheep/wool_layers",
-            "comparison": "==",
-            "compare_to": 2
-        }
-    },
-    "level_3": {
-        "type": "origins:modify_attribute",
-        "attribute": "minecraft:generic.armor",
-        "modifier": {
-            "operation": "add_base_early",
-            "value": 12
-        },
-        "condition": {
-            "type": "origins:resource",
-            "resource": "dasturvorigins:sheep/wool_layers",
-            "comparison": "==",
-            "compare_to": 3
-        }
-    },
     "level_4": {
         "type": "origins:modify_attribute",
-        "attribute": "minecraft:generic.armor",
+        "attribute": "minecraft:generic.movement_speed",
         "modifier": {
-            "operation": "add_base_early",
-            "value": 16
+            "operation": "multiply_base_multiplicative",
+            "value": -0.05
         },
         "condition": {
             "type": "origins:resource",
@@ -59,10 +45,10 @@
     },
     "level_5": {
         "type": "origins:modify_attribute",
-        "attribute": "minecraft:generic.armor",
+        "attribute": "minecraft:generic.movement_speed",
         "modifier": {
-            "operation": "add_base_early",
-            "value": 20
+            "operation": "multiply_base_multiplicative",
+            "value": -0.1
         },
         "condition": {
             "type": "origins:resource",

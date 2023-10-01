@@ -20,12 +20,12 @@
             "actions": [
                 {
                     "type":"origins:change_resource",
-                    "resource": "dasturvorigins:wool_layers",
+                    "resource": "dasturvorigins:sheep/wool_layers",
                     "change": 1
                 },
                 {
                     "type": "origins:change_resource",
-                    "resource": "dasturvorigins:wool_grow_time",
+                    "resource": "dasturvorigins:sheep/wool_grow_time",
                     "change": 0,
                     "operation": "set"
                 }
@@ -36,7 +36,7 @@
         "type": "origins:action_over_time",
         "entity_action": {
             "type": "origins:change_resource",
-            "resource": "dasturvorigins:wool_grow_time",
+            "resource": "dasturvorigins:sheep/wool_grow_time",
             "change": 1
         },
         "interval": 1200
@@ -45,11 +45,69 @@
         "type": "origins:action_on_wake_up",
         "entity_action": {
             "type": "origins:change_resource",
-            "resource": "dasturvorigins:wool_grow_time",
+            "resource": "dasturvorigins:sheep/wool_grow_time",
             "change": 10
         },
         "condition": {
             "type": "origins:daytime"
+        }
+    },
+    "shear": {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:shears"
+                        }
+                    }
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "dasturvorigins:sheep/wool_layers",
+                    "comparison": ">",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type":"origins:change_resource",
+                    "resource": "dasturvorigins:sheep/wool_layers",
+                    "change": -1
+                },
+                {
+                    "type": "origins:add_xp",
+                    "points": 20
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.sheep.shear"
+                },
+                {
+                    "type": "origins:give",
+                    "stack": {
+                    "item": "minecraft:white_wool",
+                    "amount": 3
+                    }
+                },
+                {
+                    "type": "origins:equipped_item_action",
+                    "equipment_slot": "mainhand",
+                    "action": {
+                        "type": "origins:damage",
+                        "amount": 1
+                    }
+                }
+            ]
         }
     }
 }

@@ -1,6 +1,13 @@
 {
     "powers": [
-        "dasturvorigins:sheep/wool"
+        "dasturvorigins:sheep/wool",
+        "dasturvorigins:sheep/woolen_defense",
+        "dasturvorigins:sheep/woolen_toughness",
+        "dasturvorigins:sheep/woolen_weight",
+        "dasturvorigins:sheep/woolen_speed",
+        "dasturvorigins:sheep/woolen_fire",
+        "dasturvorigins:sheep/woolen_blast",
+        "dasturvorigins:general/vegetarian"
     ],
     "icon": "minecraft:white_wool",
     "order": 4,

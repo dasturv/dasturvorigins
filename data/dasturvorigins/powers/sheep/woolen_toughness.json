@@ -1,40 +1,12 @@
 {
     "type": "origins:multiple",
     "hidden": true,
-    "level_1": {
+    "level_3": {
         "type": "origins:modify_attribute",
-        "attribute": "minecraft:generic.armor",
+        "attribute": "minecraft:generic.armor_toughness",
         "modifier": {
             "operation": "add_base_early",
             "value": 4
-        },
-        "condition": {
-            "type": "origins:resource",
-            "resource": "dasturvorigins:sheep/wool_layers",
-            "comparison": "==",
-            "compare_to": 1
-        }
-    },
-    "level_2": {
-        "type": "origins:modify_attribute",
-        "attribute": "minecraft:generic.armor",
-        "modifier": {
-            "operation": "add_base_early",
-            "value": 8
-        },
-        "condition": {
-            "type": "origins:resource",
-            "resource": "dasturvorigins:sheep/wool_layers",
-            "comparison": "==",
-            "compare_to": 2
-        }
-    },
-    "level_3": {
-        "type": "origins:modify_attribute",
-        "attribute": "minecraft:generic.armor",
-        "modifier": {
-            "operation": "add_base_early",
-            "value": 12
         },
         "condition": {
             "type": "origins:resource",
@@ -45,10 +17,10 @@
     },
     "level_4": {
         "type": "origins:modify_attribute",
-        "attribute": "minecraft:generic.armor",
+        "attribute": "minecraft:generic.armor_toughness",
         "modifier": {
             "operation": "add_base_early",
-            "value": 16
+            "value": 8
         },
         "condition": {
             "type": "origins:resource",
@@ -59,10 +31,10 @@
     },
     "level_5": {
         "type": "origins:modify_attribute",
-        "attribute": "minecraft:generic.armor",
+        "attribute": "minecraft:generic.armor_toughness",
         "modifier": {
             "operation": "add_base_early",
-            "value": 20
+            "value": 12
         },
         "condition": {
             "type": "origins:resource",
