@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dasturvorigins:dog/pet"
+    ],
+    "icon": "minecraft:bone",
+    "order": 5,
+    "impact": 1,
+    "name": "Dog",
+    "description": "*arf*"
+}
