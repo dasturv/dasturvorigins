@@ -7,7 +7,7 @@
         "enchantment": "minecraft:respiration",
         "modifier": {
             "operation": "addition",
-            "value": 7
+            "value": 3
         }
     },
     "decrease_speed": {
