@@ -1,0 +1,18 @@
+{
+    "powers": [
+        "dasturvorigins:otter/hold_breath",
+        "origins:like_water",
+        "origins:water_vision",
+        "origins:aqua_affinity",
+        "origins:aquatic",
+        "dasturvorigins:otter/webbed_feet",
+        "dasturvorigins:otter/sledding",
+        "dasturvorigins:general/pack_tactics",
+        "dasturvorigins:otter/small"
+    ],
+    "icon": "minecraft:nautilus_shell",
+    "order": 4,
+    "impact": 1,
+    "name": "Otter",
+    "description": "Agile aquatic predators, otters are curious and playful folk."
+}

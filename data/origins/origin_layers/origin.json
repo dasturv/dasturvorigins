@@ -3,6 +3,7 @@
     "origins": [
       "origins:human",
       "dasturvorigins:sheep",
-      "dasturvorigins:dog"
+      "dasturvorigins:dog",
+      "dasturvorigins:otter"
     ]
 }

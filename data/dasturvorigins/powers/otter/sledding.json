@@ -1,0 +1,18 @@
+{
+    "type": "origins:modify_attribute",
+    "name": "Sledding",
+    "description": "You are faster on ice.",
+    "attribute": "minecraft:generic.movement_speed",
+    "modifier": {
+        "operation": "multiply_total_multiplicative",
+        "value": 0.1
+    },
+    "condition": {
+        "type": "origins:on_block",
+        "block_condition": {
+            "type": "origins:slipperiness",
+            "comparison": ">=",
+            "compare_to": 0.98
+        }
+    }
+}
