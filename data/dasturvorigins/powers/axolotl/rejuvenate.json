@@ -1,0 +1,64 @@
+{
+    "name": "Rejuvenation",
+    "description": "You have powerful regenerative abilities. You can share this ability withy others while hunting.",
+    "type": "origins:multiple",
+    "aoe": {
+        "type": "origins:self_action_on_kill",
+        "entity_action": {
+            "type": "origins:area_of_effect",
+            "radius": 12,
+            "include_target": true,
+            "bientity_condition": {
+                "type": "origins:target_condition",
+                "condition": {
+                    "type": "origins:entity_type",
+                    "entity_type": "minecraft:player"
+                }
+            },
+            "bientity_action": {
+                "type": "origins:target_action",
+                "action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:apply_effect",
+                            "effect": {
+                                "effect": "minecraft:regeneration",
+                                "duration": 100,
+                                "amplifier": 0,
+                                "is_ambient": true,
+                                "show_icon": false
+                            }
+                        },
+                        {
+                            "type": "origins:clear_effect",
+                            "effect": "minecraft:mining_fatigue"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "regen": {
+        "type": "origins:action_when_damage_taken",
+        "entity_action": {
+            "type": "origins:chance",
+            "action": {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:regeneration",
+                    "duration": 100,
+                    "amplifier": 0,
+                    "is_ambient": true,
+                    "show_icon": false
+                }
+            },
+            "chance": 0.4
+        },
+        "cooldown": 1
+    },
+    "mining_fatigue_immunity": {
+        "type": "origins:effect_immunity",
+        "effect": "minecraft:mining_fatigue"
+    }
+}

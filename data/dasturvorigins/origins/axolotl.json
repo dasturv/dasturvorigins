@@ -1,0 +1,19 @@
+{
+    "powers": [
+        "origins:like_water",
+        "dasturvorigins:axolotl/cave_dweller",
+        "origins:aqua_affinity",
+        "origins:aquatic",
+        "dasturvorigins:axolotl/tiny",
+        "dasturvorigins:axolotl/paddle_tail",
+        "origins:water_breathing",
+        "dasturvorigins:otter/hold_breath",
+        "dasturvorigins:axolotl/limited_amphibiousness",
+        "dasturvorigins:axolotl/rejuvenate"
+    ],
+    "icon": "minecraft:axolotl_bucket",
+    "order": 4,
+    "impact": 2,
+    "name": "Axolotl",
+    "description": "Tiny but fierce aquatic predators. Axolotls bear many strange abilities."
+}
