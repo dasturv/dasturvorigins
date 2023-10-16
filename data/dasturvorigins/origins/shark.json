@@ -1,6 +1,16 @@
-{"powers":  ["dasturvorigins:general/sixth_sense"],
+{"powers":  ["dasturvorigins:general/sixth_sense",
+            "origins:like_water",
+            "origins:aqua_affinity",
+            "origins:aquatic",
+            "origins:water_breathing",
+            "origins:swim_speed",
+            "origins:conduit_power_on_land",
+            "origins:air_from_potions",
+            "dasturvorigins:general/wet_eyes",
+            "dasturvorigins:shark/bloodthirsty"
+        ],
 "icon": "minecraft:prismarine_shard",
-    "order": 6,
+    "order": 4,
     "impact": 1,
     "name": "Shark",
     "description": "Eat your face"
