@@ -8,7 +8,8 @@
         "dasturvorigins:otter/webbed_feet",
         "dasturvorigins:otter/sledding",
         "dasturvorigins:general/pack_tactics",
-        "dasturvorigins:otter/small"
+        "dasturvorigins:otter/small",
+        "dasturvorigins:general/carnivore"
     ],
     "icon": "minecraft:nautilus_shell",
     "order": 4,

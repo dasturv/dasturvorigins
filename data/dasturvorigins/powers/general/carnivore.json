@@ -1,7 +1,7 @@
 {
     "type": "origins:prevent_item_use",
-    "name": "Vegetarian",
-    "description": "Dietary restrictions mean you cannot eat meat.",
+    "name": "Carnivore",
+    "description": "Dietary restrictions mean you can only eat meat.",
     "item_condition": {
       "type": "origins:and",
       "conditions": [
@@ -17,7 +17,8 @@
             {
               "type": "origins:meat"
             }
-          ]
+          ],
+          "inverted": true
         },
         {
           "type": "origins:food"
@@ -26,6 +27,20 @@
           "type": "origins:ingredient",
           "ingredient": {
             "tag": "origins:ignore_diet"
+          },
+          "inverted": true
+        },
+        {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "dasturvorigins:ignore_diet"
+          },
+          "inverted": true
+        },
+        {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "dasturvorigins:sweets"
           },
           "inverted": true
         }

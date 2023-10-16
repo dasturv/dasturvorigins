@@ -1,0 +1,17 @@
+{
+    "type": "origins:action_over_time",
+    "hidden": true,
+    "entity_action": {
+        "type": "origins:gain_air",
+        "value": -10
+    },
+    "interval": 20,
+    "condition": {
+        "type": "origins:biome",
+        "condition": {
+            "type": "origins:temperature",
+            "comparison": ">=",
+            "compare_to": 2
+        }
+    }
+}

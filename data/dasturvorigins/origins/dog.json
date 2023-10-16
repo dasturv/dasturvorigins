@@ -1,6 +1,7 @@
 {
     "powers": [
-        "dasturvorigins:dog/pet"
+        "dasturvorigins:dog/pet",
+        "dasturvorigins:general/carnivore"
     ],
     "icon": "minecraft:bone",
     "order": 5,

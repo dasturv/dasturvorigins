@@ -7,7 +7,7 @@
         "dasturvorigins:sheep/woolen_speed",
         "dasturvorigins:sheep/woolen_fire",
         "dasturvorigins:sheep/woolen_blast",
-        "dasturvorigins:general/vegetarian"
+        "dasturvorigins:general/herbivore"
     ],
     "icon": "minecraft:white_wool",
     "order": 4,

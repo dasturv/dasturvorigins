@@ -9,7 +9,12 @@
         "origins:water_breathing",
         "dasturvorigins:otter/hold_breath",
         "dasturvorigins:axolotl/limited_amphibiousness",
-        "dasturvorigins:axolotl/rejuvenate"
+        "dasturvorigins:axolotl/rejuvenate",
+        "dasturvorigins:general/carnivore",
+        "origins:conduit_power_on_land",
+        "origins:air_from_potions",
+        "dasturvorigins:axolotl/air_from_rain",
+        "dasturvorigins:axolotl/dry_in_dry"
     ],
     "icon": "minecraft:axolotl_bucket",
     "order": 4,

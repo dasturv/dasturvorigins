@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+      "farmersdelight:cake_slice",
+      "farmersdelight:sweet_berry_cookie",
+      "farmersdelight:honey_cookie",
+      "farmersdelight:chocolate_pie_slice",
+      "farmersdelight:sweet_berry_cheesecake_slice",
+      "farmersdelight:apple_pie_slice",
+      "minecraft:cookie",
+      "minecraft:pumpkin_pie"
+    ]
+  }
