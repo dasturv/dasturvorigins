@@ -55,7 +55,12 @@
             },
             "chance": 0.4
         },
-        "cooldown": 1
+        "cooldown": 1,
+        "condition": {
+            "type": "origins:air",
+            "comparison": "<",
+            "compare_to": 150
+        }
     },
     "mining_fatigue_immunity": {
         "type": "origins:effect_immunity",
