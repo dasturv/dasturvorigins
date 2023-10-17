@@ -10,7 +10,9 @@
             "dasturvorigins:shark/bloodthirsty",
             "dasturvorigins:general/piscivore",
             "dasturvorigins:shark/shark_sounds",
-            "dasturvorigins:shark/land_slow"
+            "dasturvorigins:shark/land_slow",
+            "dasturvorigins:shark/tall",
+            "dasturvorigins:shark/rough_skin"
         ],
 "icon": "minecraft:prismarine_shard",
     "order": 4,

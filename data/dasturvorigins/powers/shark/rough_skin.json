@@ -1,0 +1,11 @@
+{   "type": "origins:action_when_hit",
+    "bientity_action": {
+        "type": "origins:invert",
+    "action": {
+        "type": "origins:damage",
+    "amount": 1,
+    "damage_type": "minecraft:thorns"
+    }
+    
+}
+}
