@@ -1,11 +1,14 @@
-{   "type": "origins:action_when_hit",
+{
+    "name": "Rough Skin",
+    "description": "Your sandpaper-like hide hurts those who dare attack you.",
+    "type": "origins:action_when_hit",
     "bientity_action": {
         "type": "origins:invert",
-    "action": {
-        "type": "origins:damage",
-    "amount": 1,
-    "damage_type": "minecraft:thorns"
-    }
+        "action": {
+            "type": "origins:damage",
+            "amount": 1,
+            "damage_type": "minecraft:thorns"
+        }
     
-}
+    }
 }

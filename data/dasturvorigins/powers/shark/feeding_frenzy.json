@@ -1,0 +1,24 @@
+{
+    "name": "Feeding Frenzy",
+    "description": "Whenever you kill a creature you feed on them, regenerating some health and hunger.",
+    "type": "origins:self_action_on_kill",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effects": [
+            {
+                "effect": "minecraft:regeneration",
+                "duration": 80,
+                "amplifier": 1,
+                "is_ambient": true,
+                "show_icon": false
+            },
+            {
+                "effect": "minecraft:saturation",
+                "duration": 1,
+                "amplifier": 0,
+                "is_ambient": true,
+                "show_icon": false
+            }
+        ]
+    }
+}
