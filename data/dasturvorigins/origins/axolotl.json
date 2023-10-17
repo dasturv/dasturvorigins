@@ -14,7 +14,9 @@
         "origins:conduit_power_on_land",
         "origins:air_from_potions",
         "dasturvorigins:axolotl/air_from_rain",
-        "dasturvorigins:axolotl/dry_in_dry"
+        "dasturvorigins:axolotl/dry_in_dry",
+        "dasturvorigins:axolotl/axolotl_sounds",
+        "dasturvorigins:general/piscivore"
     ],
     "icon": "minecraft:axolotl_bucket",
     "order": 4,

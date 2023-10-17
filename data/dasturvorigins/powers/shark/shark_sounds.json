@@ -1,0 +1,20 @@
+{
+    "type": "origins:multiple",
+    "hidden": true,
+    "hurt": {
+        "type": "apugli:custom_hurt_sound",
+        "sound": "minecraft:entity.squid.hurt",
+        "pitch": 0.3
+    },
+    "death": {
+        "type": "apugli:custom_death_sound",
+        "sound": "minecraft:entity.squid.death",
+        "pitch": 0.3
+    },
+    "walk": {
+        "type": "apugli:custom_footstep",
+        "sound": "minecraft:entity.guardian.flop",
+        "volume": 0.2,
+        "pitch": 0.75
+    }
+}

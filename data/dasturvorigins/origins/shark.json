@@ -7,7 +7,10 @@
             "origins:conduit_power_on_land",
             "origins:air_from_potions",
             "dasturvorigins:general/wet_eyes",
-            "dasturvorigins:shark/bloodthirsty"
+            "dasturvorigins:shark/bloodthirsty",
+            "dasturvorigins:general/piscivore",
+            "dasturvorigins:shark/shark_sounds",
+            "dasturvorigins:shark/land_slow"
         ],
 "icon": "minecraft:prismarine_shard",
     "order": 4,

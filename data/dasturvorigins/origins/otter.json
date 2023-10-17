@@ -9,7 +9,9 @@
         "dasturvorigins:otter/sledding",
         "dasturvorigins:general/pack_tactics",
         "dasturvorigins:otter/small",
-        "dasturvorigins:general/carnivore"
+        "dasturvorigins:general/carnivore",
+        "dasturvorigins:general/piscivore",
+        "dasturvorigins:otter/otter_sounds"
     ],
     "icon": "minecraft:nautilus_shell",
     "order": 4,
