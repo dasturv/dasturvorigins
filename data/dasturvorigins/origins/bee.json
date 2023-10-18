@@ -1,0 +1,12 @@
+{
+    "powers": [
+        "dasturvorigins:bee/miniscule",
+        "dasturvorigins:bee/bumbling",
+        "dasturvorigins:bee/bee_sounds"
+    ],
+    "icon": "minecraft:honeycomb",
+    "order": 4,
+    "impact": 3,
+    "name": "Bee",
+    "description": "Tiny and hardworking, bees are friendly but fierce defenders of their hives."
+}

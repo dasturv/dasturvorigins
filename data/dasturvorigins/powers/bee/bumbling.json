@@ -1,0 +1,114 @@
+{
+    "name": "Bumbling",
+    "description": "You can fly... clumsily. Rain prevents flight.",
+    "type": "origins:multiple",
+    "flight": {
+        "type": "origins:toggle",
+        "active_by_default": false,
+        "retain_state": false,
+        "key": {
+            "key": "key.origins.secondary_active"
+        },
+        "condition": {
+            "type": "origins:in_rain",
+            "inverted": true
+        }
+    },
+    "slow_fall": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:slow_falling",
+                "duration": 3,
+                "is_ambient": false,
+                "show_particles": false,
+                "show_icon": false
+            }
+        },
+        "interval": 2,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:power_active",
+                    "power": "dasturvorigins:bee/bumbling_flight"
+                },
+                {
+                    "type": "origins:sneaking",
+                    "inverted": true
+                }
+            ]
+        }
+    },
+    "levitate": {
+        "type": "origins:active_self",
+        "key": {
+            "key": "key.jump",
+            "continuous": true
+        },
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:levitation",
+                "duration": 2,
+                "amplifier": 1,
+                "is_ambient": false,
+                "show_particles": false,
+                "show_icon": false
+            }
+        },
+        "condition": {
+            "type": "origins:power_active",
+            "power": "dasturvorigins:bee/bumbling_flight"
+        }
+    },
+    "no_jump": {
+        "type": "origins:modify_jump",
+        "modifier": {
+            "operation": "multiply_total_multiplicative",
+            "value": -1
+        },
+        "condition": {
+            "type": "origins:power_active",
+            "power": "dasturvorigins:bee/bumbling_flight"
+        }
+    },
+    "lower_air_speed": {
+        "type": "origins:modify_air_speed",
+        "modifier": {
+            "operation": "multiply_total_multiplicative",
+            "value": -0.25
+        },
+        "condition": {
+            "type": "origins:power_active",
+            "power": "dasturvorigins:bee/bumbling_flight"
+        }
+    },
+    "no_fall_damage": {
+        "type": "origins:modify_damage_taken",
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "fall"
+        },
+        "modifier": {
+            "name": "Weak to cursed items",
+            "operation": "multiply_total_multiplicative",
+            "value": -1
+        }
+    },
+    "buzz": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:block.beehive.work",
+            "volume": 0.15,
+            "pitch": 0.9
+        },
+        "interval": 3,
+        "condition": {
+            "type": "origins:power_active",
+            "power": "dasturvorigins:bee/bumbling_flight"
+        }
+    }
+}
