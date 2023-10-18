@@ -1,0 +1,9 @@
+{
+    "type": "origins:modify_jump",
+    "name": "Jump good",
+    "description": "good at jumping",
+    "modifier": {
+        "operation": "addition",
+        "value": 0.2
+    }
+}

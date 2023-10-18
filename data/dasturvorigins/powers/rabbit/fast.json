@@ -1,0 +1,10 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "name": "fast",
+        "description": "fast",
+        "attribute": "minecraft:generic.movement_speed",
+        "value": 4,
+        "operation": "addition"
+    }
+}

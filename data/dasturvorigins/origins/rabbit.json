@@ -1,0 +1,11 @@
+{"powers":
+      ["dasturvorigins:rabbit/tiny",
+    "dasturvorigins:rabbit/jump_good",
+    "dasturvorigins:rabbit/fast"
+    ],
+    "icon": "minecraft:carrot",
+    "order": 4,
+    "impact": 1,
+    "name": "Rabbit",
+    "description": "Small and week, but very fast and moblie. Rabbit can also dig good!"
+}
