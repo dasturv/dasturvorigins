@@ -1,0 +1,8 @@
+{
+    "name": "Nectarivore",
+    "description": "You cannot eat solid food. Though, you can click flowers to feed yourself.",
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:food"
+    }
+}

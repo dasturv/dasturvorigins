@@ -1,0 +1,34 @@
+{
+    "name": "Pollinator",
+    "description": "Feeding covers you in pollen. While well fed, you occasionally cause nearby crops to grow.",
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:chance",
+        "action": {
+            "type": "origins:block_action_at",
+            "block_action": {
+                "type": "origins:area_of_effect",
+                "radius": 4,
+                "shape": "cube",
+                "block_action": {
+                    "type": "origins:chance",
+                    "action": {
+                        "type": "origins:bonemeal"
+                    },
+                    "chance": 0.01
+                },
+                "block_condition": {
+                    "type": "origins:in_tag",
+                    "tag": "minecraft:bee_growables"
+                }
+            }
+        },
+        "chance": 0.05
+    },
+    "condition": {
+        "type": "origins:food_level",
+        "comparison": ">",
+        "compare_to": 14
+    }
+}

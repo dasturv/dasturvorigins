@@ -1,0 +1,5 @@
+{
+    "name": "Queen Bee",
+    "description": "Taking honey and wax from beehives doesn't anger the bees.",
+    "type": "apugli:prevent_bee_anger"
+}

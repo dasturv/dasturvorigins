@@ -10,21 +10,40 @@
             "key": "key.origins.secondary_active"
         },
         "condition": {
-            "type": "origins:in_rain",
-            "inverted": true
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:in_rain",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:food_level",
+                    "comparison": ">",
+                    "compare_to": 6
+                }
+            ]
         }
     },
     "slow_fall": {
         "type": "origins:action_over_time",
         "entity_action": {
-            "type": "origins:apply_effect",
-            "effect": {
-                "effect": "minecraft:slow_falling",
-                "duration": 3,
-                "is_ambient": false,
-                "show_particles": false,
-                "show_icon": false
-            }
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:slow_falling",
+                        "duration": 3,
+                        "is_ambient": false,
+                        "show_particles": false,
+                        "show_icon": false
+                    }
+                },
+                {
+                    "type": "origins:exhaust",
+                    "amount": 0.01
+                }
+            ]
         },
         "interval": 2,
         "condition": {
@@ -48,15 +67,24 @@
             "continuous": true
         },
         "entity_action": {
-            "type": "origins:apply_effect",
-            "effect": {
-                "effect": "minecraft:levitation",
-                "duration": 2,
-                "amplifier": 1,
-                "is_ambient": false,
-                "show_particles": false,
-                "show_icon": false
-            }
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:levitation",
+                        "duration": 3,
+                        "amplifier": 1,
+                        "is_ambient": false,
+                        "show_particles": false,
+                        "show_icon": false
+                    }
+                },
+                {
+                    "type": "origins:exhaust",
+                    "amount": 0.02
+                }
+            ]
         },
         "condition": {
             "type": "origins:power_active",

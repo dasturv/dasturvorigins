@@ -2,7 +2,17 @@
     "powers": [
         "dasturvorigins:bee/miniscule",
         "dasturvorigins:bee/bumbling",
-        "dasturvorigins:bee/bee_sounds"
+        "dasturvorigins:bee/bee_sounds",
+        "dasturvorigins:bee/nectarivore",
+        "dasturvorigins:bee/flower_eat",
+        "dasturvorigins:bee/queen_bee",
+        "dasturvorigins:bee/stinger",
+        "dasturvorigins:bee/nyctophobia",
+        "origins:climbing",
+        "origins:arthropod",
+        "dasturvorigins:bee/spiracles",
+        "dasturvorigins:bee/pollinator",
+        "dasturvorigins:bee/pollen"
     ],
     "icon": "minecraft:honeycomb",
     "order": 4,
