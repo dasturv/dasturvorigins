@@ -1,0 +1,34 @@
+{
+    "name": "Spiracles",
+    "description": "Your insectoid breathing apparatus makes it that being under water immediately begins to hurt you.",
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:damage",
+        "amount": 1,
+        "damage_type": "minecraft:drown"
+    },
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:submerged_in",
+                "fluid": "minecraft:water"
+            },
+            {
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "origins:status_effect",
+                        "effect": "minecraft:water_breathing"
+                    },
+                    {
+                        "type": "origins:status_effect",
+                        "effect": "minecraft:conduit_power"
+                    }
+                ],
+                "inverted": true
+            }
+        ]
+    }
+}

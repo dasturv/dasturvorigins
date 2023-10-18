@@ -1,0 +1,79 @@
+{
+    "name": "Ruminant",
+    "description": "You are adapted to eat grass and grains. Breaking grass occasionally feeds you and wheat based food provide additional nutritional value.",
+    "type": "origins:multiple",
+    "wheat_boost": {
+        "type": "origins:modify_food",
+        "item_condition": {
+            "type": "origins:ingredient",
+                "ingredient": {
+                "tag": "dasturvorigins:contains_wheat"
+            }
+        },
+        "food_modifiers": [
+            {
+                "operation": "multiply_base_multiplicative",
+                "value": 0.2
+            },
+            {
+                "operation": "add_base_late",
+                "value": 1
+            }
+        ],
+        "saturation_modifiers": [
+            {
+                "operation": "multiply_base_multiplicative",
+                "value": 0.2
+            },
+            {
+                "operation": "add_base_late",
+                "value": 1
+            }
+        ]
+    },
+    "eat_wheat": {
+        "type": "apugli:edible_item",
+        "item_condition": {
+            "type": "apoli:ingredient",
+            "ingredient": {
+                "item": "minecraft:wheat"
+            }
+        },
+        "food_component": {
+            "hunger": 2,
+            "saturation": 1
+        }
+    },
+    "eat_grass": {
+        "type": "origins:action_on_block_break",
+        "entity_action": {
+            "type": "origins:chance",
+            "action": {
+                "type": "origins:feed",
+                "food": 1,
+                "saturation": 0.5
+            },
+            "chance": 0.025
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:empty"
+            }
+        },
+        "block_condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:grass"
+                },
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:tall_grass"
+                }
+            ]
+        }
+    }
+}

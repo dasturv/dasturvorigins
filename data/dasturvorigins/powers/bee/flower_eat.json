@@ -1,0 +1,42 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "use": {
+        "type": "origins:action_on_block_use",
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "minecraft:flowers"
+        },
+        "item_condition": {
+            "type": "origins:empty"
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.bee.pollinate"
+                },
+                {
+                    "type": "origins:feed",
+                    "food": 1,
+                    "saturation": 0.5
+                },
+                {
+                    "type": "origins:trigger_cooldown",
+                    "power": "dasturvorigins:bee/flower_eat_cooldown"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "dasturvorigins:bee/flower_eat_cooldown",
+            "comparison": "==",
+            "compare_to": 0
+        }
+    },
+    "cooldown": {
+        "type": "origins:cooldown",
+        "cooldown": 20
+    }
+}

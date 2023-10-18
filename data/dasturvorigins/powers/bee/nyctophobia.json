@@ -1,0 +1,67 @@
+{
+    "name": "Nyctophobia",
+    "description": "You are terrified of the night. Being outside in it brings a slew of negative effects.",
+    "type": "origins:multiple",
+    "debuffs": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:slowness",
+                        "duration": 5,
+                        "is_ambient": false,
+                        "show_particles": false,
+                        "show_icon": true
+                    }
+                },
+                {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:mining_fatigue",
+                        "duration": 5,
+                        "is_ambient": false,
+                        "show_particles": false,
+                        "show_icon": true
+                    }
+                },
+                {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:weakness",
+                        "duration": 5,
+                        "is_ambient": false,
+                        "show_particles": false,
+                        "show_icon": true
+                    }
+                },
+                {
+                    "type": "origins:exhaust",
+                    "amount": 0.05
+                }
+            ]
+        },
+        "interval": 4,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:exposed_to_sky"
+                },
+                {
+                    "type": "origins:exposed_to_sun",
+                    "inverted": true
+                }
+            ]
+        }
+    },
+    "shake": {
+        "type": "origins:shaking",
+        "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:slowness"
+        }
+    }
+}

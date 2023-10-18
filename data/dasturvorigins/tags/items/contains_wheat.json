@@ -1,0 +1,19 @@
+{
+    "replace": false,
+    "values": [
+      "farmersdelight:squid_ink_pasta",
+      "farmersdelight:egg_sandwich",
+      "farmersdelight:raw_pasta",
+      "farmersdelight:wheat_dough",
+      "farmersdelight:vegetable_noodles",
+      "farmersdelight:dumplings",
+      "farmersdelight:pasta_with_mutton_chop",
+      "farmersdelight:pasta_with_meatballs",
+      "farmersdelight:noodle_soup",
+      "farmersdelight:mutton_wrap",
+      "farmersdelight:bacon_sandwich",
+      "farmersdelight:hamburger",
+      "farmersdelight:chicken_sandwich",
+      "minecraft:bread"
+    ]
+  }

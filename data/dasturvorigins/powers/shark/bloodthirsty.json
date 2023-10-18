@@ -1,17 +1,17 @@
 {      
     "name": "Bloodthirsty",
-    "description": "Do more damage to creatures under full health (Ooooo, that smells goooood).",
+    "description": "The smell of blood drives you. You do more damage to creatures under full health (Ooooo, that smells goooood).",
     "type": "origins:modify_damage_dealt",
-"bientity_condition": {
-    "type": "origins:target_condition",
-    "condition": {
-       "type": "origins:relative_health",
-       "comparison": "<",
-       "compare_to": 1
+    "bientity_condition": {
+        "type": "origins:target_condition",
+        "condition": {
+        "type": "origins:relative_health",
+        "comparison": "<",
+        "compare_to": 1
+        }
+    },
+    "modifier": {
+        "operation": "multiply_total_multiplicative",
+        "value": 0.33
     }
-},
-"modifier": {
-    "operation": "multiply_total_multiplicative",
-    "value": 0.33
-}
 }
