@@ -1,0 +1,60 @@
+{"type": "origins:multiple",
+    "name": "Huge",
+    "description": "You are larger and bulkier than most. You have to crouch through doors.",
+    "modify_size": {
+        "type": "extraorigins:modify_size",
+        "scale_types": [
+            "pehkui:width",
+            "pehkui:height",
+            "pehkui:drops",
+            "pehkui:projectiles"
+        ],
+        "scale": 1.3
+    },
+    "modify_reach": {
+        "type": "extraorigins:modify_size",
+        "scale_types": [
+            "pehkui:reach"
+        ],
+        "scale": 1.25
+    },
+    "modify_visibility": {
+        "type": "extraorigins:modify_size",
+        "scale_types": [
+            "pehkui:visibility"
+        ],
+        "scale": 1.5
+    },
+    "modify_attack_speed": {
+        "type": "origins:modify_attribute",
+        "attribute": "minecraft:generic.attack_speed",
+        "modifier": {
+            "operation": "multiply_total_multiplicative",
+            "value": -0.2
+        }
+    },
+    "modify_health": {
+        "type": "origins:attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "value": 20,
+            "operation": "addition"
+        }
+    },
+    "modify_damage": {
+        "type": "origins:modify_attribute",
+        "attribute": "minecraft:generic.attack_damage",
+        "modifier": {
+            "operation": "multiply_total_multiplicative",
+            "value": 0.25
+        }
+    },
+    "modify_speed": {
+        "type": "origins:modify_attribute",
+        "attribute": "minecraft:generic.movement_speed",
+        "modifier": {
+            "operation": "multiply_total_multiplicative",
+            "value": -0.05
+        }
+    }
+}

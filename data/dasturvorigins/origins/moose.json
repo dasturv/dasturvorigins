@@ -1,0 +1,12 @@
+{
+    "powers": [
+        "dasturvorigins:moose/huge",
+        "dasturvorigins:moose/antlers",
+        "dasturvorigins:moose/antisocial"
+    ],
+    "icon": "minecraft:leather",
+    "order": 4,
+    "impact": 1,
+    "name": "Moose",
+    "description": "Massive grumpy guardians of the forest, moose are not to be taken lightly."
+}

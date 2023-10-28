@@ -1,0 +1,27 @@
+{
+    "name": "Antlers",
+    "description": "Your powerful antlers aid you in battle. You deal additional knockback while sprinting, and are better at hitting multiple foes while crouching.",
+    "type": "origins:multiple",
+    "sprint_knockback": {
+        "type": "apugli:modify_enchantment_level",
+        "enchantment": "minecraft:knockback",
+        "modifier": {
+            "operation": "addition",
+            "value": 2
+        },
+        "condition": {
+            "type": "origins:sprinting"
+        }
+    },
+    "crouch_sweeping": {
+        "type": "apugli:modify_enchantment_level",
+        "enchantment": "minecraft:sweeping",
+        "modifier": {
+            "operation": "addition",
+            "value": 2
+        },
+        "condition": {
+            "type": "origins:sneaking"
+        }
+    }
+}

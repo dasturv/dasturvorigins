@@ -1,0 +1,47 @@
+{
+    "name": "Antisocial",
+    "description": "Having to many creatures around you riles you up. You deal and tak less damage the more creatures are around you.",
+    "type": "origins:multiple",
+    "resource": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 10,
+        "hud_render": {
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+            "bar_index": 5
+        }
+    },
+    "check_mobs": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "dasturvorigins:moose/antisocial_resource",
+                    "change": 0,
+                    "operation": "set"
+                },
+                {
+                    "type": "origins:area_of_effect",
+                    "radius": 16,
+                    "bientity_action": {
+                        "type": "origins:actor_action",
+                        "action": {
+                            "type": "origins:change_resource",
+                            "resource": "dasturvorigins:moose/antisocial_resource",
+                            "change": 1
+                        }
+                    },
+                    "bientity_condition": {
+                        "type": "origins:target_condition",
+                        "condition": {
+                            "type": "origins:living"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}
