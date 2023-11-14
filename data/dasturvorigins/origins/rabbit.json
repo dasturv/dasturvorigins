@@ -2,11 +2,13 @@
     [
       "dasturvorigins:rabbit/tiny",
       "dasturvorigins:rabbit/jump_good",
-      "dasturvorigins:rabbit/fast"
+      "dasturvorigins:rabbit/fast",
+      "dasturvorigins:general/herbivore",
+      "dasturvorigins:rabbit/rabbit_sounds"
     ],
     "icon": "minecraft:carrot",
     "order": 4,
     "impact": 1,
     "name": "Rabbit",
-    "description": "Small and week, but very fast and moblie. Rabbit can also dig good!"
+    "description": "Small and weak, but very fast and moblie. Rabbit can also dig good!"
 }

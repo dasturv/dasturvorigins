@@ -1,11 +1,11 @@
 {
     "name": "Antisocial",
-    "description": "Having to many creatures around you riles you up. You deal and tak less damage the more creatures are around you.",
+    "description": "Having too many creatures around you riles you up. You deal and take less damage the more creatures are around you.",
     "type": "origins:multiple",
     "resource": {
         "type": "origins:resource",
         "min": 0,
-        "max": 10,
+        "max": 16,
         "hud_render": {
             "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
             "bar_index": 5
@@ -42,6 +42,31 @@
                     }
                 }
             ]
+        }
+    },
+    "damage_boost": {
+        "type": "origins:modify_attribute",
+        "attribute": "minecraft:generic.attack_damage",
+        "modifier": {
+            "operation": "multiply_total_multiplicative",
+            "resource": "dasturvorigins:moose/antisocial_resource",
+            "value": 0,
+            "modifier": {
+                "operation": "multiply_total_multiplicative",
+                "value": -0.975
+            }
+        }
+    },
+    "defense_boost": {
+        "type": "origins:modify_damage_taken",
+        "modifier": {
+            "operation": "multiply_total_multiplicative",
+            "resource": "dasturvorigins:moose/antisocial_resource",
+            "value": 0,
+            "modifier": {
+                "operation": "multiply_total_multiplicative",
+                "value": -1.025
+            }
         }
     }
 }

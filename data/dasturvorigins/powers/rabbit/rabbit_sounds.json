@@ -1,0 +1,12 @@
+{
+    "type": "origins:multiple",
+    "hidden": true,
+    "hurt": {
+        "type": "apugli:custom_hurt_sound",
+        "sound": "minecraft:entity.rabbit.hurt"
+    },
+    "death": {
+        "type": "apugli:custom_death_sound",
+        "sound": "minecraft:entity.rabbit.death"
+    }
+}

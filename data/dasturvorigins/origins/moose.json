@@ -2,7 +2,9 @@
     "powers": [
         "dasturvorigins:moose/huge",
         "dasturvorigins:moose/antlers",
-        "dasturvorigins:moose/antisocial"
+        "dasturvorigins:moose/antisocial",
+        "dasturvorigins:general/herbivore",
+        "dasturvorigins:moose/moose_sounds"
     ],
     "icon": "minecraft:leather",
     "order": 4,
