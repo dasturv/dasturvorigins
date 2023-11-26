@@ -1,0 +1,13 @@
+{ "name": "Always land on your feet",
+"description": "You will survive a fall from any hight! (falls into lava not included)",
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "fall"
+    },
+    "modifier": {
+        "name": "Weak to cursed items",
+        "operation": "multiply_total_multiplicative",
+        "value": -1
+    }
+}
