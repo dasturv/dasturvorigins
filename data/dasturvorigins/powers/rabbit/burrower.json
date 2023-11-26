@@ -1,0 +1,13 @@
+{
+    "name": "Burrower",
+    "description": "You can dig must faster through soils",
+    "type": "origins:modify_break_speed",
+    "block_condition": {
+        "type": "origins:in_tag",
+        "tag": "minecraft:mineable/shovel"
+    },
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 0.3
+    }
+}

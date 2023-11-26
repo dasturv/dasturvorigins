@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": [
+      "farmersdelight:kelp_roll_slice",
+      "farmersdelight:kelp_roll",
+      "farmersdelight:cod_roll",
+      "farmersdelight:salmon_roll",
+      "farmersdelight:roasted_mutton_chops",
+      "farmersdelight:steak_and_potatoes",
+      "farmersdelight:honey_glazed_ham",
+      "farmersdelight:stuffed_pumpkin",
+      "farmersdelight:fried_rice",
+      "farmersdelight:mushroom_rice",
+      "farmersdelight:cooked_rice"
+    ]
+  }

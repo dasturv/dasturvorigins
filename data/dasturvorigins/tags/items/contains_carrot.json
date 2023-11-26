@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+      "farmersdelight:kelp_roll_slice",
+      "farmersdelight:kelp_roll",
+      "farmersdelight:vegetable_noodles",
+      "farmersdelight:vegetable_soup",
+      "farmersdelight:ratatouille",
+      "farmersdelight:stuffed_pumpkin",
+      "minecraft:carrot",
+      "minecraft:golden_carrot"
+    ]
+  }

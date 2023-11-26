@@ -1,6 +1,6 @@
 {
     "name": "Pet",
-    "description": "UwU",
+    "description": "Other players can pet you, granting both regeneration.",
     "type": "origins:action_on_being_used",
     "bientity_action": {
         "type": "origins:and",

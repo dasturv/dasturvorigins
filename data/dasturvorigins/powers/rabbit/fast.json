@@ -1,4 +1,6 @@
 {
+    "name": "Quick",
+    "description": "You are exceptionally agile.",
     "type": "origins:modify_attribute",
     "attribute": "minecraft:generic.movement_speed",
     "modifier": {

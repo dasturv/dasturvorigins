@@ -1,7 +1,13 @@
 {
     "powers": [
         "dasturvorigins:dog/pet",
-        "dasturvorigins:general/carnivore"
+        "dasturvorigins:general/carnivore",
+        "dasturvorigins:dog/marathon_runner",
+        "dasturvorigins:general/sixth_sense",
+        "dasturvorigins:dog/aura_of_protection",
+        "dasturvorigins:dog/bovivore",
+        "dasturvorigins:dog/dog_sounds",
+        "dasturvorigins:dog/astraphobia"
     ],
     "icon": "minecraft:bone",
     "order": 5,

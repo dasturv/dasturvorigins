@@ -1,0 +1,15 @@
+{
+    "replace": false,
+    "values": [
+      "farmersdelight:minced_beef",
+      "farmersdelight:beef_patty",
+      "farmersdelight:cod_roll",
+      "farmersdelight:beef_stew",
+      "farmersdelight:pasta_with_meatballs",
+      "farmersdelight:steak_and_potatoes",
+      "farmersdelight:stuffed_potato",
+      "farmersdelight:hamburger",
+      "minecraft:beef",
+      "minecraft:cooked_beef"
+    ]
+  }

@@ -1,0 +1,31 @@
+{
+    "name": "Oryzivore",
+    "description": "You just love the taste of rice. Rice and foods that contain rice provide more hunger and saturation for you.",
+    "type": "origins:modify_food",
+    "item_condition": {
+        "type": "origins:ingredient",
+            "ingredient": {
+            "tag": "dasturvorigins:contains_rice"
+        }
+    },
+    "food_modifiers": [
+        {
+            "operation": "multiply_base_multiplicative",
+            "value": 0.2
+        },
+        {
+            "operation": "add_base_late",
+            "value": 1
+        }
+    ],
+    "saturation_modifiers": [
+        {
+            "operation": "multiply_base_multiplicative",
+            "value": 0.2
+        },
+        {
+            "operation": "add_base_late",
+            "value": 1
+        }
+    ]
+}
