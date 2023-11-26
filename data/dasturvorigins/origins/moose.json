@@ -4,7 +4,8 @@
         "dasturvorigins:moose/antlers",
         "dasturvorigins:moose/antisocial",
         "dasturvorigins:general/herbivore",
-        "dasturvorigins:moose/moose_sounds"
+        "dasturvorigins:moose/moose_sounds",
+        "dasturvorigins:moose/bellow"
     ],
     "icon": "minecraft:leather",
     "order": 4,

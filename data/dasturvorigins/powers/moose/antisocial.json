@@ -37,7 +37,8 @@
                     "bientity_condition": {
                         "type": "origins:target_condition",
                         "condition": {
-                            "type": "origins:living"
+                            "type": "origins:in_tag",
+                            "tag": "dasturvorigins:hostile"
                         }
                     }
                 }
