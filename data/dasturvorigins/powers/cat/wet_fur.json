@@ -1,0 +1,30 @@
+{
+    "name": "wet fur",
+    "description": "baths are hell",
+    "entity_action": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "minecraft:apply_effect",
+            "effect": {
+                "effect": "minecraft:weakness",
+                "duration": 400,
+                "amplifier": 2,
+                "is_ambient": false,
+            "show_particles": false,
+            "show_icon": true
+        },
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:submerged_in",
+                    "fluid": "minecraft:water"
+                },
+                {      
+                    "type": "origins:in_rain"
+                }
+            ]
+        }
+}
+    }
+}
