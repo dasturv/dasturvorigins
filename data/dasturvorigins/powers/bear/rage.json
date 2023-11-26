@@ -1,0 +1,59 @@
+{
+    "name": "Rage",
+    "description": "As you take damage you get angrier, dealing more and taking less damage.",
+    "type": "origins:multiple",
+    "resource": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 100,
+        "hud_render": {
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+            "bar_index": 5
+        }
+    },
+    "drain": {
+        "type": "origins:action_over_time",
+        "interval": 10,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "dasturvorigins:bear/rage_resource",
+            "change": -1,
+            "operation": "add"
+        }
+    },
+    "gain": {
+        "type": "origins:action_when_damage_taken",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "dasturvorigins:bear/rage_resource",
+            "change": 15,
+            "operation": "add"
+        },
+        "cooldown": 1
+    },
+    "damage_boost": {
+        "type": "origins:modify_attribute",
+        "attribute": "minecraft:generic.attack_damage",
+        "modifier": {
+            "operation": "multiply_total_multiplicative",
+            "resource": "dasturvorigins:bear/rage_resource",
+            "value": 0,
+            "modifier": {
+                "operation": "multiply_total_multiplicative",
+                "value": -0.997
+            }
+        }
+    },
+    "defense_boost": {
+        "type": "origins:modify_damage_taken",
+        "modifier": {
+            "operation": "multiply_total_multiplicative",
+            "resource": "dasturvorigins:bear/rage_resource",
+            "value": 0,
+            "modifier": {
+                "operation": "multiply_total_multiplicative",
+                "value": -1.003
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "name": "Hibernate",
+    "description": "You drain hunger when you sleep. But if you slept full, you gain temporary hp when you awaken.",
+    "type": "origins:multiple",
+    "drain": {
+        "type": "origins:action_on_wake_up",
+        "entity_action": {
+            "type": "origins:exhaust",
+            "amount": 8
+        },
+        "condition": {
+            "type": "origins:daytime"
+        }
+    },
+    "health": {
+        "type": "origins:action_on_wake_up",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:absorption",
+                "duration": 28800,
+                "amplifier": 2
+            } 
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:daytime"
+                },
+                {
+                    "type": "origins:food_level",
+                    "comparison": ">=",
+                    "compare_to": 16
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "powers": [
+        "dasturvorigins:bear/huge",
+        "dasturvorigins:general/carnivore",
+        "dasturvorigins:bear/rage",
+        "dasturvorigins:bear/sweet_tooth",
+        "dasturvorigins:bear/hibernate",
+        "dasturvorigins:bear/bear_sounds"
+    ],
+    "icon": "farmersdelight:honey_cookie",
+    "order": 5,
+    "impact": 2,
+    "name": "Bear",
+    "description": "Strong and large, bears make a fearsome foe."
+}
