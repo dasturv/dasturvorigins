@@ -2,7 +2,10 @@
     "powers": [
         "dasturvorigins:general/carnivore",
         "dasturvorigins:cat/fast",
-        "dasturvorigins:cat/small"
+        "dasturvorigins:cat/small",
+        "dasturvorigins:cat/nofalldamage",
+        "dasturvorigins:general/piscivore",
+        "dasturvorigins:cat/aura_of_agility"
     ],
     "icon": "minecraft:bell",
     "order": 5,

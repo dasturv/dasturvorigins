@@ -1,8 +1,13 @@
 {
+    "name": "Quick Sprinter",
+    "description": "You are a exceptionally while running.",
     "type": "origins:modify_attribute",
+    "condition": {
+        "type": "origins:sprinting"
+    },
     "attribute": "minecraft:generic.movement_speed",
     "modifier": {
         "operation": "multiply_total_multiplicative",
-        "value": 0.2
+        "value": 0.15
     }
 }
