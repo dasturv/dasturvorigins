@@ -1,0 +1,12 @@
+{
+    "powers": [
+        "dasturvorigins:general/carnivore",
+        "dasturvorigins:cat/fast",
+        "dasturvorigins:cat/small"
+    ],
+    "icon": "minecraft:bell",
+    "order": 5,
+    "impact": 1,
+    "name": "Cat",
+    "description": "*meow*"
+}

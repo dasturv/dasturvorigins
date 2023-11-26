@@ -1,0 +1,36 @@
+{"type": "origins:multiple",
+    "name": "Small",
+    "description": "You are smaller and more vulnerable than most. You can crouch through single block gaps.",
+    "modify_size": {
+        "type": "extraorigins:modify_size",
+        "scale_types": [
+            "pehkui:width",
+            "pehkui:height",
+            "pehkui:drops",
+            "pehkui:projectiles"
+        ],
+        "scale": 0.666
+    },
+    "modify_reach": {
+        "type": "extraorigins:modify_size",
+        "scale_types": [
+            "pehkui:reach"
+        ],
+        "scale": 0.75
+    },
+    "modify_visibility": {
+        "type": "extraorigins:modify_size",
+        "scale_types": [
+            "pehkui:visibility"
+        ],
+        "scale": 0.5
+    },
+    "modify_health": {
+        "type": "origins:attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "value": -6,
+            "operation": "addition"
+        }
+    }
+}
