@@ -7,7 +7,8 @@
         "dasturvorigins:dog/aura_of_protection",
         "dasturvorigins:dog/bovivore",
         "dasturvorigins:dog/dog_sounds",
-        "dasturvorigins:dog/monophobia"
+        "dasturvorigins:dog/monophobia",
+        "dasturvorigins:general/low_light_vision"
     ],
     "icon": "minecraft:bone",
     "order": 5,

@@ -7,7 +7,8 @@
         "dasturvorigins:general/piscivore",
         "dasturvorigins:cat/aura_of_agility",
         "dasturvorigins:cat/wet_fur",
-        "dasturvorigins:cat/cat_sounds"
+        "dasturvorigins:cat/cat_sounds",
+        "dasturvorigins:general/low_light_vision"
     ],
     "icon": "minecraft:bell",
     "order": 5,

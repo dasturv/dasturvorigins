@@ -1,0 +1,6 @@
+{
+    "name": "Low Light Vision",
+    "description": "You can see better in dark places.",
+    "type": "origins:night_vision",
+    "strength": 0.25
+}

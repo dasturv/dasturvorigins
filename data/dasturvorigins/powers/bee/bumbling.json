@@ -74,7 +74,7 @@
                     "effect": {
                         "effect": "minecraft:levitation",
                         "duration": 3,
-                        "amplifier": 1,
+                        "amplifier": 2,
                         "is_ambient": false,
                         "show_particles": false,
                         "show_icon": false

@@ -16,7 +16,7 @@
         "scale_types": [
             "pehkui:reach"
         ],
-        "scale": 1.25
+        "scale": 1.5
     },
     "modify_visibility": {
         "type": "extraorigins:modify_size",

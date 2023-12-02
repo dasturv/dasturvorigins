@@ -1,0 +1,28 @@
+{
+    "name": "Arboreal",
+    "description": "You are an arboreal creature, able to climb logs and leaves.",
+    "type": "origins:climbing",
+    "condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:block_collision",
+                "block_condition": {
+                    "type": "origins:in_tag",
+                    "tag": "dasturvorigins:wooden_climable"
+                },
+                "offset_x": 0.1,
+                "offset_z": 0.1
+            },
+            {
+                "type": "origins:block_collision",
+                "block_condition": {
+                    "type": "origins:in_tag",
+                    "tag": "dasturvorigins:wooden_climable"
+                },
+                "offset_x": -0.1,
+                "offset_z": -0.1
+            }
+        ]
+    }
+}
