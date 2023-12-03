@@ -6,7 +6,8 @@
       "dasturvorigins:general/herbivore",
       "dasturvorigins:rabbit/rabbit_sounds",
       "dasturvorigins:rabbit/carotivore",
-      "dasturvorigins:rabbit/burrower"
+      "dasturvorigins:rabbit/burrower",
+      "dasturvorigins:rabbit/reduce_fall"
     ],
     "icon": "minecraft:carrot",
     "order": 4,

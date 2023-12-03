@@ -1,0 +1,12 @@
+{
+    "hidden": true,
+    "type": "origins:modify_damage_taken",
+    "modifier": {
+        "operation": "add_base_early",
+        "value": -6
+    },
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "fall"
+    }
+}

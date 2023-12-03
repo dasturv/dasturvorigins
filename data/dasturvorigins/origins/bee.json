@@ -8,11 +8,12 @@
         "dasturvorigins:bee/queen_bee",
         "dasturvorigins:bee/stinger",
         "dasturvorigins:bee/nyctophobia",
-        "origins:climbing",
+        "dasturvorigins:bee/climbing",
         "origins:arthropod",
         "dasturvorigins:bee/spiracles",
         "dasturvorigins:bee/pollinator",
-        "dasturvorigins:bee/pollen"
+        "dasturvorigins:bee/pollen",
+        "dasturvorigins:bee/produce_honey"
     ],
     "icon": "minecraft:honeycomb",
     "order": 4,
